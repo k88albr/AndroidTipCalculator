@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Bill amount, decimal -->
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/bill_msg"
+        android:inputType="numberDecimal"
+        android:text=""
+        tools:ignore="LabelFor" />
+
+    <!-- Tip percent, Discrete slider 0 - 100 -->
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7sp"
+        android:stepSize="1.0"
+        android:valueFrom="0.0"
+        android:valueTo="100.0" />
+
+    <!-- Tip amount -->
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="20sp" />
+</LinearLayout>
