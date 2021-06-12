@@ -39,8 +39,14 @@ This uses Android Studio, in addition you will need Java 8.  You can use Java 8,
 * Check the Project Configuration and ensure that Before Launch has Gradle-aware Make added.
 * Now you should be able to click Run and see the application in the emulator.
 
-Note: tests are not running locally.  Something about the Academy settings is reporting WARNING: An illegal reflective access operation has occurred
-The tests did run when submitting updated code to the Academy.  
+Note: To get unit tests running
+* find the ExampleUnitTest.kt file (switch view to Tests and expand Tip Calculator/task/src/test/java/org/hyperskill/calculator/tip/ 
+* right click the ExampleUnitTest.kt file and choose Run 'ExampleUnitTest'
+* if you receive these errors: WARNING: An illegal reflective access operation has occurred
+  * the Java version for the test configuration isn't matching.  If the configuration is not listed, click Save Configuration in the list for the Edit Run/Debug Configuration Settings.
+  * choose Edit Configurations...
+  * inspect the JRE drop down and make sure it is set to 1.8 not API Level 28.
+  * now tests will run to completion.
 
 
 
