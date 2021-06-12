@@ -13,7 +13,7 @@ In addition, event listeners are hooked up to respond to user input.
 The course required certain hard-coded control names and layout.
 Otherwise I would have named the controls what they are (bill, tipPercent, tipAmount). 
 
-Simple functional app that allows one to enter the bill amount and desired tip percent, on any change of inputs the tip amount is recalculated and displayed.
+Simple functional app that allows one to enter the bill amount and desired tip percent. On any change of inputs, the tip amount is recalculated and displayed.
 
 Work done beyond the lesson
 * added hint text to the EditText control (to guide user)
