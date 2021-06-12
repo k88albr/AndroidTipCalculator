@@ -1,6 +1,9 @@
 # AndroidTipCalculator
 Learning project for JetBrains Academy.  
-This demonstrates usage of the following controls:
+Decent learning platform if you are an existing coder looking to get up to speed quickly with Android app development.  
+Check it out [here](https://hyperskill.org/tracks)
+
+This project demonstrates usage of the following controls:
 * EditText
 * Material Design Discrete Slider
 * TextView
@@ -27,7 +30,7 @@ Work done beyond the lesson
 | MainActivity | MainActivity.kt     | Tip Calculator/task/src/main/java/org/hyperskill/calculator/tip/
 
 ## Building and Running
-This uses Android Studio, in addition you will need Jave 8.  You can use OpenJDK or one of the Amazon Correto packages
+This uses Android Studio, in addition you will need Java 8.  You can use Java 8, or OpenJDK or one of the Amazon Correto [packages](https://aws.amazon.com/corretto/)
 * Open Android Studio
 * Open the folder where this project is cloned
 * Click Sync Project with Gradle Files
