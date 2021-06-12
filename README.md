@@ -18,6 +18,7 @@ Work done beyond the lesson
 * adjusted font size of display text
 * addressed all warnings so code is clean.
 * added KDoc style comment to central function updateTip
+* this repo *just* has the core code needed for the application without all the lesson overhead.
 
 ## Code of interest
 | Area         | Filename            | path
@@ -25,7 +26,19 @@ Work done beyond the lesson
 | UI Layout    | activity_main.xml   | Tip Calculator/task/src/main/res/layout/
 | MainActivity | MainActivity.kt     | Tip Calculator/task/src/main/java/org/hyperskill/calculator/tip/
 
-## Building
+## Building and Running
 This uses Android Studio, in addition you will need Jave 8.  You can use OpenJDK or one of the Amazon Correto packages
+* Open Android Studio
+* Open the folder where this project is cloned
+* Click Sync Project with Gradle Files
+* Configure the root module's settings to set the path to the JDK (right click top most folder in Project and choose Open Module Settings, then SDK Location)
+* Click AVD Manager and pick an emulator to use such as Pixel 3 if you haven't configured one.
+* Check the Project Configuration and ensure that Before Launch has Gradle-aware Make added.
+* Now you should be able to click Run and see the application in the emulator.
+
+Note: tests are not running locally.  Something about the Academy settings is reporting WARNING: An illegal reflective access operation has occurred
+The tests did run when submitting updated code to the Academy.  
+
+
 
 
